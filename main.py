@@ -1,5 +1,11 @@
-for i in range(1,100):
-    if i % 3==0 and i % 5==0:
-       print(i)
-else:
-    print("to'g'ri kelmaydi")
+def kopaytma(*args):
+    result = 1
+    for number in args:
+        result *= number
+    return result
+print(kopaytma(2,3,4))
+
+
+
+
+
